@@ -1,0 +1,16 @@
+# Author: Brett Sheehan
+# Student Number: 040759671
+
+use world;
+
+select name from city;
+
+select name from city ORDER BY name DESC;
+select distinct name from city;
+select name from city where CountryCode='CAN';
+select name from city where District='ontario';
+select sum(population) from city where CountryCode='ARG';
+select count(name) from city where CountryCode='BEL';
+select distinct district from city where CountryCode='BRA';
+select sum(population) from city where CountryCode='BRA';
+select count(*) from city;
